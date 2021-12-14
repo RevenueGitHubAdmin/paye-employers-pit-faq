@@ -1,0 +1,158 @@
+//variables
+@colorTeal: #00595B;
+@colorWhite: #fff;
+@colourGrey: #E9ECEF;
+@colourBlue: #0c72bc;
+@colourText: #333;   
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('resources/Fonts/FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'),
+        url('resources/Fonts/FiraSans-Regular.woff2') format('woff2'),
+         url('resources/Fonts/FiraSans-Regular.woff') format('woff'),
+         url('resources/Fonts/FiraSans-Regular.woff2') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+body{
+    overflow: auto;
+    font-size: 1rem;
+    font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+    color: #333;
+    a {
+        color: @colourBlue;
+    }
+}
+
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+
+.top-bar {
+    background-color: @colorTeal;
+    height: 8.1rem;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    border-bottom: 14px solid #00c6c6;
+    a{
+        text-decoration: none;
+    }
+}
+
+.revenueLogo {
+    img {
+    margin:0.625rem;
+    float: left;
+    height: 6.0625rem;
+    width: 12.125rem;
+    }
+    h3{
+        padding-top: 2.7rem;
+        padding-left: 2.5rem;
+        color: @colorWhite;
+    }
+}
+
+.nav-item {
+    padding: .25rem;
+    button {
+        color: @colourBlue; 
+    }
+}
+
+.pmod-faq {
+    padding-top: 1.875rem;
+    h1{
+        margin: 0.5rem 0 1rem 0;
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 2.8rem;
+    }
+}
+
+.tab-pane{
+    background-color: @colourGrey;
+}
+
+.tabs {
+    padding-top: 1.875rem;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.tab-content {
+    .btn{
+    background-color: @colourGrey;
+
+    }
+    .btn-secondary:focus{
+        background-color: @colourGrey;
+        box-shadow: 0 0 0 0rem;
+    }
+}
+
+.dropdown{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-left: .25rem solid teal;
+    border-bottom: 0.0625rem solid teal;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+
+    ul p{
+        border-left: 0.1875rem solid @colorTeal;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        }
+    ul{
+        padding: 1rem;
+        }
+    .dropdown-menu{
+        background-color: @colourGrey;
+    }
+
+    .dropdown-toggle{
+        white-space: normal;
+    }
+    .btn{
+        color: @colourText;
+    }
+}
+
+.dropdown-toggle::after{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+
+.btn-secondary{
+    border: 0px !important;
+    color: @colourText;
+    overflow: auto;
+}
+
+.btn-secondary:focus {
+    color: @colourText !important;
+}
+
+.btn-secondary:hover {
+    background-color: @colourGrey !important;
+    color: @colourText !important; 
+}
+
+.whitespace{
+    height: 1rem;
+    background-color: @colorWhite;
+}
