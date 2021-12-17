@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('resources/Fonts/FiraSans-Regular.eot');
+  src: local('Fira Sans Regular'), url('resources/Fonts/FiraSans-Regular.woff2') format('woff2'), url('resources/Fonts/FiraSans-Regular.woff') format('woff'), url('resources/Fonts/FiraSans-Regular.woff2') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  overflow: auto;
+  font-size: 1rem;
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+body a {
+  color: #0c72bc;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333;
+}
+.top-bar {
+  background-color: #00595B;
+  height: 8.1rem;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  border-bottom: 14px solid #00c6c6;
+}
+.top-bar a {
+  text-decoration: none;
+}
+.revenueLogo img {
+  margin: 0.625rem;
+  float: left;
+  height: 6.0625rem;
+  width: 12.125rem;
+}
+.revenueLogo h3 {
+  padding-top: 2.7rem;
+  padding-left: 2.5rem;
+  color: #fff;
+}
+.nav-item {
+  padding: 0.25rem;
+}
+.nav-item button {
+  color: #0c72bc;
+}
+.pmod-faq {
+  padding-top: 1.875rem;
+}
+.pmod-faq h1 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+.tab-pane {
+  background-color: #E9ECEF;
+}
+.tabs {
+  padding-top: 1.875rem;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.tab-content .btn {
+  background-color: #E9ECEF;
+}
+.tab-content .btn-secondary:focus {
+  background-color: #E9ECEF;
+  box-shadow: 0 0 0 0rem;
+}
+.dropdown {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-left: 0.25rem solid teal;
+  border-bottom: 0.0625rem solid teal;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.dropdown ul p {
+  border-left: 0.1875rem solid #00595B;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+.dropdown ul {
+  padding: 1rem;
+}
+.dropdown .dropdown-menu {
+  background-color: #E9ECEF;
+}
+.dropdown .dropdown-toggle {
+  white-space: normal;
+}
+.dropdown .btn {
+  color: #333;
+}
+.dropdown-toggle::after {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  float: left;
+}
+.btn-secondary {
+  border: 0px !important;
+  color: #333;
+  overflow: auto;
+}
+.btn-secondary:focus {
+  color: #333 !important;
+}
+.btn-secondary:hover {
+  background-color: #E9ECEF !important;
+  color: #333 !important;
+}
+.whitespace {
+  height: 1rem;
+  background-color: #fff;
+}

@@ -1,0 +1,31 @@
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton9"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        'Signature does not match signed content' error message?
+    </button>
+    <ul class="dropdown-menu col-lg-12 col-md-12 col-sm-12"
+        aria-labelledby="dropdownMenuButton9">
+        <p>Please follow this signature guide to build the signature properly:
+            <a href="https://revenue-ie.github.io/paye-employers-documentation/PIT4/examples/REST_Request_Authentication_V1.pdf">https://revenue-ie.github.io/paye-employers-documentation/PIT4/examples/REST_Request_Authentication_V1.pdf</a>
+        </p>
+    </ul>
+</div>
+<div class="whitespace"></div>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton10"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        I have received a ‘BAS100’ error message?
+    </button>
+    <ul class="dropdown-menu col-lg-12 col-md-12 col-sm-12"
+        aria-labelledby="dropdownMenuButton10">
+        <p>Please check your ROS url login page should finish with the proper table parameter:
+            https://{ENVIRONMENT}.ros.ie/oidc/login?client_id=payeselfservice_rp<BR>
+            PIT 3: <a href="https://softwaretest.ros.ie/oidc/login?client_id=payeselfservice_rp">https://softwaretest.ros.ie/oidc/login?client_id=payeselfservice_rp</a> <BR>
+            PIT 4: <a href="https://softwaretestnextversion.ros.ie/oidc/login?client_id=payeselfservice_rp">https://softwaretestnextversion.ros.ie/oidc/login?client_id=payeselfservice_rp</a>
+            <BR>
+            If that didn’t work, make sure you are in the proper environment for that mock-employer
+            certificate, whether that be PIT3 (Cert#: 9999XXXXX) or PIT4 (Cert#: 8888XXXXX).
+        </p>
+    </ul>
+</div>
+<div class="whitespace"></div>
