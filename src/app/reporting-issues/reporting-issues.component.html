@@ -1,0 +1,12 @@
+<div class="col-11 col-md-11 col-lg-11 tabContent">
+    <p-accordion >
+      <p-accordionTab *ngFor="let reportingIssue of reportingIssues" [cache]="false">
+        <ng-template pTemplate="header">
+          {{reportingIssue.heading}}
+        </ng-template>
+        <ng-template pTemplate="content">
+            <p [innerHtml]="reportingIssue.content" ></p>
+        </ng-template>
+      </p-accordionTab>
+    </p-accordion>
+  </div>

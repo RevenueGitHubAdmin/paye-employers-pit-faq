@@ -1,0 +1,12 @@
+<div class="col-11 col-md-11 col-lg-11 tabContent">
+  <p-accordion >
+    <p-accordionTab *ngFor="let tdm of tdms" [cache]="false">
+      <ng-template pTemplate="header">
+        {{tdm.heading}}
+      </ng-template>
+      <ng-template pTemplate="content">
+        <p [innerHtml]="tdm.content" ></p>
+      </ng-template>
+    </p-accordionTab>
+  </p-accordion>
+</div>

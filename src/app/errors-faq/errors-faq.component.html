@@ -1,0 +1,12 @@
+<div class="col-11 col-md-11 col-lg-11 tabContent">
+    <p-accordion >
+      <p-accordionTab *ngFor="let errorFaq of errorFaqs" [cache]="false">
+        <ng-template pTemplate="header">
+          {{errorFaq.heading}}
+        </ng-template>
+        <ng-template pTemplate="content">
+            <p [innerHtml]="errorFaq.content" ></p>
+        </ng-template>
+      </p-accordionTab>
+    </p-accordion>
+  </div>
