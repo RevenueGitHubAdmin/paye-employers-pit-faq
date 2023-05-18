@@ -10,7 +10,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { TdmTabComponent } from './tdm-tab/tdm-tab.component';
 import { SoapRestTabComponent } from './soap-rest-tab/soap-rest-tab.component';
-import { SafePipeModule } from 'safe-pipe';
 import { ErrorsFaqComponent } from './errors-faq/errors-faq.component';
 import { ReportingIssuesComponent } from './reporting-issues/reporting-issues.component';
 
@@ -29,8 +28,7 @@ import { ReportingIssuesComponent } from './reporting-issues/reporting-issues.co
     RevdsModule,
     AccordionModule,
     RouterModule,
-    BrowserAnimationsModule,
-    SafePipeModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

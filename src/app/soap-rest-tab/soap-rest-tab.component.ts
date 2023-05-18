@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SafePipe } from 'safe-pipe/public-api';
 
 @Component({
   selector: 'app-soap-rest-tab',
