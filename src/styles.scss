@@ -244,3 +244,27 @@ body {
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    body .main nav a {
+        display: block;
+        max-width: 70%;
+        border-bottom: .1rem solid #e9ecef
+        }
+        
+        body .top-bar .pmodHome h3 {
+            display: inline-block;
+        }
+        
+        .p-accordion .p-element .p-accordion-tab .p-accordion-content {
+            overflow-wrap: anywhere;
+        }
+}
+
+@media screen and (min-width: 480px) and ( max-width:900px) {
+    body .main nav a {
+        display: block;
+        max-width: 55%;
+        border-bottom: .1rem solid #e9ecef
+        }
+}
