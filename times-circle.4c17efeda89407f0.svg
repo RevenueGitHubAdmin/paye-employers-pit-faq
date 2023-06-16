@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Icon-Danger" transform="translate(0)">
+    <path id="Path_738" data-name="Path 738" d="M16.1,30.1A14,14,0,1,0,6.2,26a14,14,0,0,0,9.9,4.1Zm0,2A16,16,0,1,0,4.786,27.414,16,16,0,0,0,16.1,32.1Z" transform="translate(-0.1 -0.1)" fill="#4e0e14" fill-rule="evenodd"/>
+    <path id="Path_739" data-name="Path 739" d="M12.332,13.748l-12-12L1.748.332l12,12Z" transform="translate(8.96 8.96)" fill="#4e0e14" fill-rule="evenodd"/>
+    <path id="Path_740" data-name="Path 740" d="M1.748,13.748l12-12L12.332.332l-12,12,1.416,1.416Z" transform="translate(8.96 8.96)" fill="#4e0e14" fill-rule="evenodd"/>
+  </g>
+</svg>

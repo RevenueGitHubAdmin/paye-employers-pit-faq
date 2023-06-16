@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Icon-Success" transform="translate(0)">
+    <path id="Path_738" data-name="Path 738" d="M16.1,30.1A14,14,0,1,0,6.2,26a14,14,0,0,0,9.9,4.1Zm0,2A16,16,0,1,0,4.786,27.414,16,16,0,0,0,16.1,32.1Z" transform="translate(-0.1 -0.1)" fill="#0b3214" fill-rule="evenodd"/>
+    <path id="check" d="M16.448.485a.714.714,0,0,1,0,1.012l-10,10a.714.714,0,0,1-1.012,0l-5-5A.715.715,0,1,1,1.446,5.486l4.5,4.5,9.5-9.5a.714.714,0,0,1,1.012,0Z" transform="translate(7.558 9.815)" fill="#0b3214" stroke="#0b3214" stroke-width="1" fill-rule="evenodd"/>
+  </g>
+</svg>
